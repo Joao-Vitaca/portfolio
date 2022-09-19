@@ -38,11 +38,11 @@
     </section>
     <section id="sobre">
             <h2>SOBRE MIM</h2>
-            <p>Eu sou um desenvolvedor front end e estou a procura de uma oportunidade de trabalho. Tenho estudado por conta própria e já realizei alguns pequenos projetos para por em prática os estudos. Atualmente resido em Pelotas/RS e tenho 21 anos.</p>
-            <a href="#">Open to Work</a>
+            <p>Eu sou um desenvolvedor web front end e estou a procura de uma oportunidade de trabalho como estagiário/junior. Tenho estudado por conta própria e já realizei alguns pequenos projetos para por em prática os estudos. Atualmente resido em Pelotas/RS e tenho 21 anos.</p>
+            <a href="#">Open to Work!</a>
     </section>
-    <section id="habilidades">
         <h2>Habilidades</h2>
+    <div id="habilidades">
         <picture>
             <img src="imagens/html5-ico64.png" alt="" id="gitHub">
         </picture>
@@ -58,22 +58,35 @@
         <picture>
             <img src="imagens/github-ico64.png" id="gitHub" alt="">
         </picture>
-    </section>
-    <section id="projetos">
-        <h2>Projetos</h2>
-        <div>Em Breve</div>
-        <div>Em Breve</div>
-        <div>Em Breve</div>
-        <div>Em Breve</div>
-    </section>
+    </div>
+        <section>
+            <h2>Projetos</h2>
+            <div id="projetos">
+                <div class="cards" id="card1">Em Breve</div>
+                <div class="cards" id="card2">Em Breve</div>
+                <div class="cards" id="card3">Em Breve</div>
+                <div class="cards" id="card4">Em Breve</div>
+            </div>
+        </section>
     <section>
         <h2>Fale comigo</h2>
-        <form action="">
-
+        <form action="" id="formulario">
+            <div>
+                <label for="nome">Nome:</label>
+                <input type="text">
+            </div>
+            <div>
+                <label for="email">E-mail:</label>
+                <input type="email">
+            </div>
+            <div>
+                <label for="assunto">Assunto:</label>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+            </div>
+            <input type="submit" value="Enviar">
         </form>
     </section>
     <footer>
-        <img src="" alt="">
         <p>Feito com S2 <a href="">J.V.</a> &copy; 2022 - Todos os direitos reservados.</p>
     </footer>
 </body>

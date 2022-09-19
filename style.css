@@ -9,7 +9,7 @@
     to{transform: translateY(10px);}
 }
 :root{
-    --cor1: #210F04;
+    --cor1: #210f0400;
     --cor2: #8E6E53;
     --cor3: #E1CE7A;
     --cor4: ;
@@ -19,6 +19,9 @@
 }
 body{
     background-color: var(--cor2)
+}
+h2{
+    text-align: center;
 }
 header{
     display: flex;
@@ -30,19 +33,19 @@ header{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: "a b";
-    margin: 0 25%;
+    margin: 15px 0px;
 }
 #perso{
     grid-area: a;
     display: flex;
-    justify-content: center;
+    justify-content: right;
 }
 #apre{
     grid-area: b;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: left;
 }
 header ul{
     display: flex;
@@ -50,6 +53,47 @@ header ul{
     list-style: none;
     width: 600px;
     margin: auto;
+}
+#habilidades{
+    display: flex;
+    justify-content: space-evenly;
+    width: 500px;
+    margin: 1em auto;
+}
+#projetos{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 80%;
+    margin: 1em auto;
+    
+}
+.cards{
+    background-color: bisque;
+    width: 150px;
+    height: 300px;
+    border-radius: 15px;
+    text-align: center;
+}
+#card1{
+    background-image: url(imagens/);
+}
+#card2{
+    background-image: url();
+}
+#card3{
+    background-image: url();
+}
+#card5{
+    background-image: url();
+}
+#formulario{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 500px;
+    margin: 15px auto;
 }
 #gitHub{
     animation-name: gitMove;
@@ -63,6 +107,7 @@ header ul{
     text-decoration: none;
     color: antiquewhite;
     background-color: #210F04;
+    width: max-content;
     padding: 1em;
     border-radius: 1em;
 }
@@ -79,5 +124,8 @@ header ul{
     margin-bottom: 20px;
 }
 footer{
-    
+    background-color: #E1CE7A;
+    border-radius: 15px;
+    text-align: center;
+    padding: 15px;
 }
