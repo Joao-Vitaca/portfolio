@@ -24,9 +24,21 @@ header{
 }
 #banner{
     display: grid;
-    justify-content: space-evenly;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "a b";
+    margin: 0 25%;
+}
+#perso{
+    grid-area: a;
+    display: flex;
+    justify-content: center;
+}
+#apre{
+    grid-area: b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    width: 500px;
 }
 header ul{
     display: flex;
@@ -35,9 +47,12 @@ header ul{
     width: 600px;
     margin: auto;
 }
-a{
+#banner a, #sobre a{
     text-decoration: none;
     color: antiquewhite;
+    background-color: #210F04;
+    padding: 1em;
+    border-radius: 1em;
 }
 header ul{
     
@@ -47,6 +62,9 @@ header ul{
     border-radius: 1.5em;
     margin: 1em;
     padding: 1em;
+}
+#sobre p{
+    margin-bottom: 20px;
 }
 footer{
     
