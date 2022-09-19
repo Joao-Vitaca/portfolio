@@ -9,10 +9,10 @@
     to{transform: translateY(10px);}
 }
 :root{
-    --cor1: #210f0400;
+    --cor1: #210f04b9;
     --cor2: #8E6E53;
     --cor3: #E1CE7A;
-    --cor4: ;
+    --cor4: #210f04;
     --cor5: ;
     --fonte1: ;
     --fonte2: ;
@@ -25,7 +25,7 @@ h2{
 }
 header{
     display: flex;
-    background-color: #210F04;
+    background-color: var(--cor1);
     height: 100px;
     color: antiquewhite;
 }
@@ -103,7 +103,7 @@ header ul{
     animation-direction: alternate-reverse;
 
 }
-#banner a, #sobre a{
+#banner a, #sobre a, header a{
     text-decoration: none;
     color: antiquewhite;
     background-color: #210F04;
